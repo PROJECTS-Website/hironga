@@ -1,16 +1,14 @@
 
 const Footer = () => {
   return (
-    <footer className="py-12 px-4">
-      <div className="max-w-6xl mx-auto">
-        {/* Glowing divider */}
-        <div className="w-full h-px bg-gradient-to-r from-transparent via-cyber-glow/50 to-transparent mb-8"></div>
-        
-        <div className="text-center">
-          <p className="text-soft-glow/70">
-            Crafted by <span className="text-cyber-glow font-medium">Hiro</span>, fueled by TypeScript & dreams.
-          </p>
-        </div>
+    <footer className="section-container pt-12 pb-8">
+      {/* Glowing divider */}
+      <div className="w-full h-px bg-gradient-to-r from-transparent via-cyber-accent/60 to-transparent mb-12 animate-pulse-glow"></div>
+      
+      <div className="text-center">
+        <p className="text-xl text-glow-text/80 font-medium">
+          Crafted by <span className="text-cyber-accent font-bold glowing-text">Hiro</span>, fueled by TypeScript & dreams.
+        </p>
       </div>
     </footer>
   );
